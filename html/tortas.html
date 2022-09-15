@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="K-cup's - Contáctanos para brindarte toda la informacion que necesites de primera mano, y así poder asesorarte." />
+  <meta name="keywords" content="pedidos, cupcakes temáticos, cupcakes decorativos, cupcakes, tortas, tortas temáticas, tortas decorativas, galletas, galletitas, galletas decorativas, galletas temáticas, pastelería para eventos, mesa dulce" />
+  <title>Kcup's - Pedidos</title>
+  <link rel="shortcut icon" href="../img/icon/favicon3.ico">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Aquí barra de navegacion -->
+
+<div class="navbar">
+<div class="container flex">
+
+
+
+  <div><img src="../img/icon/headfoot.png" alt="logo de kcups"></div>
+  <nav>
+    <ul>
+      <a href="../index.html"><button>HOME</button></a>
+      <a href="tortas.html" ><button>PEDIDOS</button></a>
+      <a href="contacto.html" ><button>CONTACTO</button></a>
+      <a href="galeria.html" ><button>GALERIA</button></a>
+      <a href="nosotros.html" ><button>NOSOTROS</button></a>
+    </ul>
+  </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+
+<section class="showcase">
+<div class="container">
+<div class="grid">
+  <div class="grid-item-1">
+    <div class="showcase-text">
+      <h1 class="intro">Tienes ganas de algo dulce!</h1>
+      <p class="texto_soporte"> Haz aquí tu pedido o cotización y disfruta del sabor. </p>
+    </div>
+    <div>
+       <p class="corta-info">Las mejores de la ciudad las encuentras solo en...</p>
+       <p>Kcup's</p>
+    </div>
+  </div>
+
+  <div class="grid-item-2">
+    <div class="image">
+      <img class="kcups_gif animate__animated animate__flip" src="../img/gif/cakegif.gif" alt="GIF con efecto de brillos que muestra a una mujer atendiento una pasteleria y a una cliente">
+    </div>
+  </div>
+</div>
+
+</div>
+</section>
+
+
+
+
+<!--AQU SECCION PARA PEDIDOS  - COLOCAR PRECIOS EN FUTURO-->
+
+<section class="titulo_repetido" id="titulo_repetido">
+  <div class="title">
+  
+  
+    <div class="titulo-testimonial">
+  <h1 data-aos="fade-up" class="titulo_ppal">HAZ AQUÍ TU PEDIDO. NO TE ARREPENTIRÁS.</h1>
+  </div>
+  <p data-aos="fade-up" class="p_parrafo">
+    ¡Estamos emocionados de preparar tortas o cupcakes para tu ocasión especial! El formulario que sigue generará una solicitud de cotización
+     para tu pedido (No te sientas comprometida/do). Nos comunicaremos contigo dentro de las 24 horas posteriores a la recepción de tu solicitud para
+      analizar más detalles, incluidos los precios y la fecha de entrega o retirada. Se le enviara la cotización al correo electrónico que proporcionaste.
+       <br> <br> Si decides tomar la acertada decisión de comprar nuestros productos nos pondremos manos a la obra para que recibas en el tiempo estipulado. 
+       <br> <br>  ¡Aquí comienza la diversión!, ¡Por favor haz tu pedido con tiempo mínimo y anticipado de una semana. ¿Poco de tiempo? ¡Contáctenos de todos modos!
+        Haremos todo lo posible para satisfacer sus necesidades.  </p>
+  </div>
+  </section>
+
+
+  <div class="group">
+   
+    <form id="formulario_compra">
+      <div class="formulario">
+        <strong>
+          <label id="int_nombre" for="nombre">Nombre</label><br></br>
+        </strong>
+        <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Ingresa tu nombre" required/>
+      </div>
+      <div class="formulario">
+        <strong>
+          <label id="email_secc" for="email">Email</label><br></br></strong>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Ingresa tu Email" required/>
+      </div>
+      <div class="formulario"><strong>
+            <label id="numero_tel" for="number">Teléfono <span class="clue">(opcional)</span></label><br></br></strong>
+          <input name="tel" id="number" class="form-control" placeholder="Ingresa tu teléfono"/>
+      </div>
+      <div class="formulario">
+        <p>Qué tipo de producto te interesa?</p>
+        <select id="lista_despleg" name="role" class="form-control" required>
+          <option>Selecciona producto</option>
+          <option value="Torta">Torta</option>
+          <option value="Cupcake">Cupcake</option>
+          <option value="Galletas">Galletas</option>
+          <option value="Cakepop">Cake Pop</option>
+          <option value="tortcup">Torta + Cupcake</option>
+          <option value="tortapop">Torta + Cake Pop</option>
+          <option value="Cakepopcup">Cake Pop + Cupcake</option>
+          <option value="masprod">quiero mas de 3 productos. (Especificar en comentario).</option>
+
+        </select>
+      </div>
+      <div class="formulario">
+        <p>Selecciona tipo de decoración del producto</p>
+        <label>
+          <input type="radio" name="tipo" value="Tradicional" class="input-radio"/>Tradicional</label><br></br>
+          <label>
+            <input type="radio" name="tipo" value="Decorativo" class="input-radio"/>Decorativo</label><br></br>
+          <label>
+            <input type="radio" name="tipo" value="temático" class="input-radio"/>temático</label><br></br>
+      </div>
+      <div class="formulario">
+        <p> Selecciona tipo de crema para cubierta</p>
+          <label>
+          <input type="radio" name="tipo_crema" value="cremant" class="input-radio"/>
+             Crema de mantequilla</label>
+          <br></br>
+          <label>
+            <input type="radio" name="tipo_crema" value="cremal" class="input-radio"/>crema de lecha</label>
+            <br></br>
+            <label>
+              <input type="radio" name="tipo_crema" value="cremaq" class="input-radio"/>crema de queso
+            </label>
+            <br></br>
+          <label>
+            <input type="radio" name="tipo_crema" value="Nolose" class="input-radio"/>No estoy segura/ro
+          </label>
+      </div>
+      <div class="form-group">
+        <p>Que sabor o sabores prefieres<span class="clue">(Puedes combinar sabores)</span></p>
+        <label>
+          <input name="prefer" value="red" type="checkbox" class="input-checkbox"/>Red Velvet</label><br></br>
+        <label>
+          <input name="prefer" value="amap" type="checkbox" class="input-checkbox"/>Amapola</label><br></br>
+        <label>
+          <input name="prefer" value="vaini" type="checkbox" class="input-checkbox"/>Vainilla</label><br></br>
+        <label>
+          <input name="prefer" value="chocol" type="checkbox" class="input-checkbox"/>Chocolate</label><br></br>
+        <label>
+          <input name="prefer" value="fres" type="checkbox" class="input-checkbox"/>Fresa
+          </label><br></br>
+        <label>
+          <input name="prefer" value="mara" type="checkbox" class="input-checkbox"/>Maracuya</label><br></br>
+        <label>
+          <input name="prefer" value="frut" type="checkbox" class="input-checkbox"/>Frutos Rojos</label><br></br>
+          <label>
+            <input name="prefer" value="Arequipe" type="checkbox" class="input-checkbox"/>Arequipe</label><br></br>
+            <label>
+              <input name="prefer" value="Oreo" type="checkbox" class="input-checkbox"/>Oreo</label><br></br>
+              <label>
+                <input name="prefer" value="Otro" type="checkbox" class="input-checkbox"/>Otro Sabor (Especificar en comentario).</label><br></br>
+      </div>
+      <div class="formulario">
+          <p>Ya casi terminamos!... <br><br> Por favor indica en el área de comentario si quieres más de tres productos, si tienes una combinación de sabores en mente y no está en lista, si deseas una temática específica para el producto de tu interés
+            (Ejemplo: torta de princesa, torta de avengers, cupcake de Harry Potter, halloween… El cielo es el límite). Recuerda que estaremos respondiendo dentro de las 24hs de enviado este formulario para informarte costo y métodos de pago.
+           </p>
+              <textarea id="comentarios" class="para_texto" name="comment" placeholder="Ingresa aquí tu comentario..."></textarea>
+      </div>
+      <button type="submit" id="submit" value="Enviar" class="submit-button">Enviar</button>
+  </form>
+</div>
+
+
+
+
+  
+
+
+
+
+
+<footer>
+  <div class="footer-contenido">
+      <div> <img src="../img/icon/headfoot.png" alt="logo de la pasteleria kcups"></div>
+      <p>Somos un emprendimiento familiar dedicado a la elaboración de pastelería para eventos y ocasiones especiales desde el año 2014. <br> BOGOTA - COLOMBIA </p>
+      <ul class="social">
+          <li><a href="https://www.facebook.com/kcupsReposteria"><img src="../img/icon/icofb.png" alt="icono de facebook"></a></li>
+          <li><a href="https://instagram.com/kcups_tortas_cupcakes?igshid=YmMyMTA2M2Y="><img src="../img/icon/icoins.png" alt="icono de instagram"></a></li>
+          <li><a href="https://mobile.twitter.com/piccolafestaweb"><img src="../img/icon/icotwt.png" alt="icono de twitter"></a></li>
+          <li><a href="https://wa.me/qr/MYGJ72F3C5WIG1"><img src="../img/icon/icowht.png" alt="icono de whatsapp"></a></li>
+      </ul>
+  </div>
+  <div class="footer-fin">
+      <p>Copyright &copy;2022 <a href="../index.html">Kcup's</a>  </p>
+              <div class="footer-menu">
+                <ul class="f-menu">
+
+                  <li><a href="../index.html">Home</a></li>
+                  <li><a href="tortas.html">Productos</a></li>
+                  
+                  <li><a href="galeria.html">Galería</a></li>
+                  <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+              </div>
+  </div>
+</footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script> AOS.init(); </script>
+</body>
+</html>
